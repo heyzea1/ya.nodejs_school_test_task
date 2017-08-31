@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ya-nodejs-school-test-task</title>
+        <style>
+            .error {
+                border: 1px solid red
+            }
+
+            .progress {
+                background-color: gray;
+            }
+
+            .success {
+                background-color: lightgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="myForm" action="http://localhost:3000/">
+            <label>
+                ФИО
+                <input name="fio" type="text" placeholder="Ivanov Ivan Ivanovich">
+            </label>
+
+            <label>
+                Email
+                <input name="email" type="text" placeholder="ivan@yandex.ru">
+            </label>
+
+            <label>
+                Телефон
+                <input name="phone" type="text" placeholder="+7(911)111-11-11">
+            </label>
+
+            <input id="submitButton" type="submit" value="Отправить">
+            <div id="resultContainer"></div>
+        </form>
+        <script type="text/javascript" src="./vendor/vanilla-masker.min.js"></script>
+        <script type="text/javascript" src="./index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "ya-nodejs-school-test-task",
+  "version": "1.0.0",
+  "description": "Yandex Nodejs School Admission Test Task",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chernyshev Daniil",
+  "license": "ISC"
+}
